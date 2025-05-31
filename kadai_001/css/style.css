@@ -1,0 +1,167 @@
+/* リセットCSS */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 全体のCSS */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+img {
+    width: 100%
+}
+
+
+/* ヘッダー */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.container a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.container ul li {
+    padding: 0 9px;
+}
+
+h1 {
+    border: 1px solid #000000;
+    font-size: 34px;
+    padding: 3px 19px 3px 19px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav {
+    font-size: 34px;
+}
+
+#main-pic {
+    margin-top: 0; 
+}
+
+
+/* 見出し */
+.h2-index {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+/* Aboutセクション */
+#about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-pic {
+    width: 282px;
+    height: 284px;
+    border-radius: 50%;
+    margin-right:60px;
+}
+
+#my-explain {
+    margin-left: 60px;
+}
+
+
+/* Worksセクション */
+#works-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.works-explain {
+    width: 240px;
+    padding: 0 10px;
+}
+
+.works-explain p {
+    margin: 0 5px;
+}
+
+
+/* フッター */
+footer {
+    text-align: center;
+}
+
+
+/* スマホ用メディアクエリ */
+@media screen and (max-width: 767px) {
+    /* ヘッダー */
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container li {
+        font-size: 18px;
+    }
+
+    /* 見出し */
+    h1 {
+        font-size: 28px;
+    }
+
+    /* aboutセクション */
+    #about-section {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #my-pic,
+    #my-explain {
+        margin: 0 20px 50px;
+        padding: 0;
+    }
+
+    #works-section {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .works-explain {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .works-explain p {
+        margin-bottom : 30px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
