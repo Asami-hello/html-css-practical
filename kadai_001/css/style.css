@@ -70,7 +70,7 @@ nav {
 }
 
 /* Aboutセクション */
-#about-section {
+#about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ nav {
 
 
 /* Worksセクション */
-#works-section {
+#works {
     display: flex;
     justify-content: center;
     margin: 50px;
@@ -128,7 +128,7 @@ footer {
     }
 
     /* aboutセクション */
-    #about-section {
+    #about {
         flex-wrap: wrap;
         align-items: center;
     }
@@ -139,7 +139,7 @@ footer {
         padding: 0;
     }
 
-    #works-section {
+    #works {
         flex-direction: column;
         margin: 0;
         padding: 0;
